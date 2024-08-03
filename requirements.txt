@@ -1,0 +1,4 @@
+psutil==5.9.4
+
+# Standard libraries (no installation needed)
+# ctypes, json, os, sys, threading, time, logging
