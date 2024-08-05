@@ -63,7 +63,8 @@ class CrosshairApp:
             "   Administrator privileges help in managing file permissions and ensuring the settings are saved correctly.\n\n"
             "4. **Input Handling**: The application monitors global key events to provide functionalities like color cycling and\n"
             "   visibility toggling. Administrator privileges allow the application to capture these events reliably.\n\n"
-            "Click 'Yes' to grant administrator privileges. If you choose 'No', the application may experience errors."
+            "Click 'Yes' to grant administrator privileges. If you choose 'No', the application may experience errors.\n\n\n"
+            "Evelyn was here :3"
         )
         result = ctypes.windll.user32.MessageBoxW(0, message, "Administrator Access Request", 4)
         if result == 6:  # IDYES
